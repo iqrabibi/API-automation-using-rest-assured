@@ -1,0 +1,170 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Suite1">
+    <!-- <parameter name="firstName" value="iqra"/>
+     <parameter name="lastName" value="bibi"/>
+     <parameter name="email" value="iqrabibi25@yahoo.com"/>
+     <parameter name="phoneNumber" value="0345296468524"/>
+     <parameter name="description" value="this is my messgae"/>
+     <parameter name="invalidEmail" value="iqrayhoo.com"/>
+     <parameter name="invalidPhoneNumber" value="eeeeeeeeeeeeee"/>  -->
+
+
+
+    <test name = "get users">
+        <classes>
+            <class name="TestCases.GetInvoiceOfUserAssertion">
+                <methods>
+
+                    <include name="getInvoiceOfSpecificUser"></include>
+
+                </methods>
+            </class>
+
+            </classes>
+    </test>
+
+
+    <test name="Update user profile">
+        <classes>
+
+            <class name="TestCases.UpdateUserProfileAssertion">
+                <methods>
+
+                    <include name="UpdateProfile"></include>
+
+
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Get all created discount code">
+        <classes>
+
+            <class name="TestCases.GetAllCreatedDiscountCodeAssertion">
+                <methods>
+
+                    <include name="AllDiscountCodes"></include>
+
+
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name = "Insurance Plan">
+        <classes>
+            <class name="TestCases.GetAllInsurancePlanAssertion">
+                <methods>
+
+                    <include name="allInsuranceplan"></include>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name = "Crate Colelction one off charge">
+        <classes>
+            <class name="TestCases.PostCrateCollectionOneOffChargeAssertion">
+                <methods>
+
+                    <include name="crateCollection"></include>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name = "add new moves form">
+    <classes>
+    <class name="TestCases.PostNewMoveFormAssertion">
+    <methods>
+
+    <include name="addNewMovesFormFlow"></include>
+
+
+    </methods>
+    </class>
+
+    </classes>
+    </test>
+
+    <test name = "Get user specific form">
+        <classes>
+            <class name="TestCases.GetMovesFormForSpecificUserAssertion">
+                <methods>
+
+                    <include name="getMovesFormOfUserSpecificFlow"></include>
+
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test name = "Get All form">
+        <classes>
+            <class name="TestCases.GetAllMovesFormAssertion">
+                <methods>
+
+                    <include name="GetAllMovesFormFlow"></include>
+
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test name = "Update Form of specific user">
+        <classes>
+            <class name="TestCases.UpdateMoveFormForSpecificUserAssertion">
+                <methods>
+
+                    <include name="UpdateMovesFormFlow"></include>
+
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name = "Delete Moves Form">
+        <classes>
+            <class name="TestCases.DeleteSpecificUserMovesFormAssertion">
+                <methods>
+
+                    <include name="DeleteMovesFormFlow"></include>
+
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name = "Get all rooms">
+        <classes>
+            <class name="TestCases.GetAllRoomsAssertion">
+                <methods>
+
+                    <include name="GetAllRoomsFlow"></include>
+
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+
+</suite>
